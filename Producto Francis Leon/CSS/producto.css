@@ -1,0 +1,151 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para el cuerpo y el encabezado */
+body {
+  background-color: #c0c0c0;
+}
+
+header {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  border-bottom: 2px solid #fff; /* Línea separadora en la parte inferior */
+  width: 100%;
+  height: 250px;
+  .logo {
+      img {
+      width: 600px; /* Disminución del tamaño del logo */
+      height: 300px;
+      text-align: center;
+      position: relative;
+      top: -35px;
+      left: 44px;
+      transform: translate(-50px);
+      }
+  }
+  nav {
+  ul {
+    list-style-type: none;
+    margin-top: 10px; /* Añadir espacio entre el título y la barra de navegación */
+    li {
+      display: inline;
+      margin-right: 20px;
+      position: relative;
+      bottom: 270px;
+      left: 400px;
+        a {
+          text-decoration: none;
+          color: #fff;
+          font-weight: bold;
+          transition: color 0.3s ease;
+        }
+      }
+    }
+  }
+}
+/* Estilos para el contenido principal */
+main {
+  .texto {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    p {
+      font-family: 'Times New Roman', Times, serif;
+    }
+  }
+  .galeria-titulo{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .tarjetas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    top: 80px;
+    .card {
+        background-color: black;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        border: 2px;
+        border-radius: 30px;
+        box-shadow: 7px 7px black;
+        padding: 10px;
+        overflow: auto;
+        aspect-ratio: ratio 700px / 800px;
+        font-family:'Times New Roman', Times, serif;
+            .contenido img {
+                display: block;
+                margin: auto;
+                width: 50%;
+            }
+            p {
+                text-align: center;
+                color: white;
+                font-weight: bold;
+                font-size: 1.5rem;
+            }
+          img {
+            position: relative;
+            top: 5px;
+          }
+    }
+  }
+}
+/* Estilos para el pie de página */
+footer {
+  position: relative;
+  top: 120px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  height: 90px;
+  .footer-texto {
+    position: relative;
+    top: 30px;
+  }
+  .redes{
+    position: relative;
+    top: 30px;
+    /* Estilos para los enlaces de redes sociales */
+    .red-social {
+      display: inline-block;
+      margin-right: 10px;
+      background-color: #3b5998; /* Color de fondo de Facebook */
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .red-social:hover {
+      background-color: #ed7c19; /* Cambio de color al pasar el ratón */
+    }
+    
+    /* Estilos específicos para cada red social */
+    .whatsapp {
+      background-color: #25d366; /* Color de fondo de WhatsApp */
+    }
+    
+    .facebook {
+      background-color: #3b5998; /* Color de fondo de Facebook */
+    }
+    
+    .instagram {
+      background-color: #e4405f; /* Color de fondo de Instagram */
+    }
+  }
+}
+
+

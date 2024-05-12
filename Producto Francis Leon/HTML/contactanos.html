@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="../MULTIMEDIA/IMAGENES/logo.ico">
+    <link rel="stylesheet" href="../CSS/contactanos.css">
+</head>
+<body>
+    <div class="container">
+        <form action="practicascesde@gmail.com" method="get" enctype="text/plain">
+            <p>Bienvenido</p>
+            <span class="Nombre">
+                <input type="text" name="Nombre" placeholder="Nombre"><br>
+            </span>
+            <span class="Apellido">
+                <input type="text" name="Apellido" placeholder="Apellido"><br>
+            </span>
+            <span class="Email">
+                <input type="email" placeholder="Email"><br>
+            </span>
+            <span class="Hombre">
+                <label for="Hombre">Hombre</label>
+                <input type="radio" name="Masculino" id="Hombre" value="Hombre"><br>
+            </span>
+            <span class="Mujer">
+                <label for="Mujer">Mujer</label>
+                <input type="radio" name="Femenino" id="Mujer" value="Mujer"><br>
+            </span>
+            <span class="Novedades">
+                <input class="novedades" type="checkbox" name="novedades" id="novedades" value="si" checked>
+                <label class="novedades" for="novedades">Deseo recibir información sobre novedades y ofertas</label><br><br>
+            </span>
+            <span class="condiciones">
+                <input type="checkbox" name="condiciones" id="condiciones" value="si">
+                <label for="condiciones">Declaro haber leido y aceptar las condiciones</label><br><br>
+            </span>
+            <span class="Enviar">
+                <input type="button" value="Enviar">
+            </span>
+        </form>
+    </div>
+</body>
+</html>
